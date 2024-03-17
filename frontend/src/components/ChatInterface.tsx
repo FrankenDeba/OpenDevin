@@ -8,11 +8,11 @@ interface Message {
     sender: 'user' | 'assistant';
 }
 
-// 
+//
 // --output-file eslint-results.sarif
 
 const ChatInterface: React.FC = () => {
-    let name = "deba125";
+    let name = 'deba12rr5';
     const [messages, setMessages] = useState<Message[]>([
         {
             content:
