@@ -9,7 +9,7 @@ interface Message {
 }
 
 const ChatInterface: React.FC = () => {
-    let name = "deba123";
+    let name = "deba12345";
     const [messages, setMessages] = useState<Message[]>([
         {
             content:
