@@ -33,8 +33,8 @@ jobs:
       - name: Install ESLint
         run: |
           npm install eslint@8.10.0 typescript-eslint --save-dev eslint-plugin-react-hooks eslint-plugin-react --legacy-peer-deps
-          npm run format
-          npm run lint
+          
+          npm run eslint \"**/*.{js,jsx,ts,tsx,json}\"
 
       - name: Run ESLint
         run: npx eslint .
