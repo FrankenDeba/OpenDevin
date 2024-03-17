@@ -32,7 +32,7 @@ jobs:
 
       - name: Install ESLint
         run: |
-          npm install eslint@8.10.0 typescript-eslint@latest --save-dev eslint-plugin-react-hooks@latest eslint-plugin-react@latest
+          npm install eslint@8.10.0 typescript-eslint --save-dev eslint-plugin-react-hooks eslint-plugin-react
           npm install @microsoft/eslint-formatter-sarif@2.1.7
 
       - name: Run ESLint
